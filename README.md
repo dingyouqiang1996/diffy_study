@@ -5,6 +5,7 @@
   - AI workflow编排
   - RAG检索
   - 模型管理
+## P1
 - dify: `v0.10.1`
 ```
 wget https://github.com/langgenius/dify/archive/refs/tags/0.11.0.zip
