@@ -24,3 +24,17 @@ sudo apt-get update
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo docker run hello-world
 ```
+- 启动dify
+```shell
+cd dify-0.11.0/docker
+docker-compose up -d
+```
+### Prompt
+- SYSTEM 你是一个k8s生成助手, 根据要求生成k8s pod
+1. pod的命名空间是myweb
+2. 自动添加合适的request和limit
+```
+USER
+pod名称是{{pod_name}}
+镜像是{{image}}
+```
