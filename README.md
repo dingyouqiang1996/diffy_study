@@ -5,9 +5,9 @@
   - AI workflow编排
   - RAG检索
   - 模型管理
-- diffy: `v0.10.1`
+- dify: `v0.10.1`
 ```
-github.com/langgenius/diffy
+wget https://github.com/langgenius/dify/archive/refs/tags/0.11.0.zip
 ```
 - `ubuntu` 安装docker
 ```shell
